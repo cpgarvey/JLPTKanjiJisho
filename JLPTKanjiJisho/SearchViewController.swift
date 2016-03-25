@@ -48,9 +48,7 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
     
     /* Dismiss keyboard if user touches outside the text field */
     func tap(gesture: UITapGestureRecognizer) {
-        if searchTextField.isFirstResponder() == true {
-            searchTextField.resignFirstResponder()
-        }
+        searchTextField.resignFirstResponder()
     }
     
     func configureUI() {
