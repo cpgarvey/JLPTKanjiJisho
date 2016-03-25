@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F25D706D1CA4E61800108876 /* MasterKanjiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25D706C1CA4E61800108876 /* MasterKanjiList.swift */; };
 		F2C735191CA38CE100C3524D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C735181CA38CE100C3524D /* AppDelegate.swift */; };
 		F2C7351B1CA38CE100C3524D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C7351A1CA38CE100C3524D /* SearchViewController.swift */; };
 		F2C7351E1CA38CE200C3524D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C7351C1CA38CE200C3524D /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F25D706C1CA4E61800108876 /* MasterKanjiList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterKanjiList.swift; sourceTree = "<group>"; };
 		F2C735151CA38CE100C3524D /* JLPTKanjiJisho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLPTKanjiJisho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C735181CA38CE100C3524D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C7351A1CA38CE100C3524D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		F25D706E1CA4E61F00108876 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F25D706C1CA4E61800108876 /* MasterKanjiList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		F2C7350C1CA38CE100C3524D = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		F2C735171CA38CE100C3524D /* JLPTKanjiJisho */ = {
 			isa = PBXGroup;
 			children = (
+				F25D706E1CA4E61F00108876 /* Model */,
 				F2C7352A1CA3ABB800C3524D /* View */,
 				F2C735181CA38CE100C3524D /* AppDelegate.swift */,
 				F25D706B1CA4E2E500108876 /* Controller */,
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C7351B1CA38CE100C3524D /* SearchViewController.swift in Sources */,
+				F25D706D1CA4E61800108876 /* MasterKanjiList.swift in Sources */,
 				F2C7352C1CA3ABF500C3524D /* ColorScheme.swift in Sources */,
 				F2C735191CA38CE100C3524D /* AppDelegate.swift in Sources */,
 			);
