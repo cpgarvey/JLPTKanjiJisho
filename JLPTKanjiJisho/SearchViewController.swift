@@ -56,8 +56,8 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
     func configureUI() {
         /* Configure background gradient */
         view.backgroundColor = UIColor.clearColor()
-        let colorTop = ColorScheme.cherryRed.CGColor
-        let colorBottom = ColorScheme.crimson.CGColor
+        let colorTop = ColorScheme.mauve.CGColor
+        let colorBottom = ColorScheme.candyPink.CGColor
         let backgroundGradient = CAGradientLayer()
         backgroundGradient.colors = [colorTop, colorBottom]
         backgroundGradient.locations = [0.0, 1.0]
@@ -65,9 +65,9 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
         view.layer.insertSublayer(backgroundGradient, atIndex: 0)
 
         /* Set Element Colors */
-        appTitle.textColor = ColorScheme.cream
-        searchTextField.textColor = ColorScheme.cream
-        searchTextField.backgroundColor = ColorScheme.ash
+        appTitle.textColor = ColorScheme.offWhite
+        searchTextField.textColor = ColorScheme.offWhite
+        searchTextField.backgroundColor = ColorScheme.lightPink
     }
 }
 

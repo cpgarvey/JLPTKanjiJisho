@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F25D706B1CA4E2E500108876 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2C7351A1CA38CE100C3524D /* SearchViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		F2C7350C1CA38CE100C3524D = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +66,7 @@
 			children = (
 				F2C7352A1CA3ABB800C3524D /* View */,
 				F2C735181CA38CE100C3524D /* AppDelegate.swift */,
-				F2C7351A1CA38CE100C3524D /* SearchViewController.swift */,
+				F25D706B1CA4E2E500108876 /* Controller */,
 				F2C7351C1CA38CE200C3524D /* Main.storyboard */,
 				F2C7351F1CA38CE200C3524D /* Assets.xcassets */,
 				F2C735211CA38CE200C3524D /* LaunchScreen.storyboard */,
@@ -299,6 +307,7 @@
 				F2C735291CA38CE200C3524D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

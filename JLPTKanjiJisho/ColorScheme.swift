@@ -9,9 +9,12 @@
 import UIKit
 
 struct ColorScheme {
-    static let crimson: UIColor = UIColor(red: 0.557, green: 0.0, blue: 0.067, alpha: 1.0)
-    static let cherryRed: UIColor = UIColor(red: 0.796, green: 0.086, blue: 0.075, alpha: 1.0)
-    static let cream: UIColor = UIColor(red: 0.925, green: 0.914, blue: 0.898, alpha: 1.0)
-    static let ash: UIColor = UIColor(red: 0.702, green: 0.635, blue: 0.647, alpha: 1.0)
+    
+    static let offWhite = UIColor(red:1.00, green:0.99, blue:1.00, alpha:1.0)
+    static let lightPink = UIColor(red:0.97, green:0.90, blue:0.94, alpha:1.0)
+    static let mauve = UIColor(red:0.87, green:0.64, blue:0.77, alpha:1.0)
+    static let candyPink = UIColor(red:0.89, green:0.33, blue:0.53, alpha:1.0)
+    static let bloodRed = UIColor(red:0.65, green:0.01, blue:0.17, alpha:1.0)
+    
 }
 
