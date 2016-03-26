@@ -64,7 +64,7 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
 
         /* Set Element Colors */
         appTitle.textColor = ColorScheme.offWhite
-        searchTextField.textColor = ColorScheme.offWhite
+        searchTextField.textColor = ColorScheme.bloodRed
         searchTextField.backgroundColor = ColorScheme.lightPink
     }
 }

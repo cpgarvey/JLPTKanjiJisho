@@ -31,7 +31,10 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcR-Fd-SCN">
                                 <rect key="frame" x="95" y="323" width="410" height="30"/>
-                                <state key="normal" title="Search"/>
+                                <color key="backgroundColor" red="0.6470588235294118" green="0.011764705882352941" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" red="1" green="0.99215686274509807" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2sU-fl-Nvs"/>
                                 </connections>
