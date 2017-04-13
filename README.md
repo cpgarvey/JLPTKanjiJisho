@@ -1,5 +1,7 @@
 # JLPT Kanji Jisho
 
+CURRENTLY UNDERGOING REVISIONS TO MAKE SWIFT 3+ COMPLIANT!
+
 ## About
 
 JLPT Kanji Jisho is an open source Swift application, still under development, that will ultimately contain a native Swift data model that captures all of the kanji contained in the various levels of the Japanese Language Proficiency Test (the "*_JLPT_*").
